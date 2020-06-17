@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+ol, ul {
+    list-style: none;
+}
+.zm-page{
+    min-width: 768px;
+}
+.zm-header{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: .3s ease;
+}
+.zm-header-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 64px;
+    line-height: 1;
+
+}
+.zm-logo{
+    float: left;
+    margin-top: 14px;
+    width: 78px;
+
+    height: 37px;
+}
+.zm-nav{
+    width: 100%;
+    text-align: right;
+    white-space: nowrap;
+    height: 100%;
+}
+.zm-nav li{
+    position: relative;
+    margin-left: 2.5%;
+    display: inline-block;
+    height: 100%;
+    line-height:64px;
+}
+/*  */
+.home-banner {
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    overflow: hidden;
+    margin-bottom: -152px;
+    background-color: #080325;
+}
+.home-wp ,.container {
+    background: #080325;
+}
+.home-banner-wp {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -540px 0 0 -960px;
+    width: 1920px;
+    height: 1080px;
+    background-image: url(https://www.xunlei.com/v2018/dist/banner_bg.jpg?h=b150bd);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.home-banner-wp .zm-pro-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.banner-list {
+    height: 100%;
+}
+.banner-item {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.home-banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.banner-earth {
+    position: absolute;
+    top: 82px;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: auto;
+    background-image: url(../images/earth01.png) no-repeat;
+    width: 730px;
+    height: 730px;
+}
+.banner-detail__logo02 {
+    background-image: url(https://www.xunlei.com/v2018/dist/spr_bannerTab.png?h=0472e8);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+/* wp2 */
+.home-box {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    max-width: 1200px;
+    min-width: 768px;
+    margin: 0 auto;
+}
+
+.home-product__list {
+    position: relative;
+    z-index: 2;
+    font-size: 0;
+    text-align: left;
+    overflow: hidden;
+}
+.home-product__li{
+    position: relative;
+    float: left;
+    width: 48.58333%;
+    height: 360px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    color: #fefefe;
+}
+.fl_right{
+    float:right;
+}
+.home-product__li img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.home-product__ico{
+    width: 118px;
+    height: 110px;
+    display: block;
+    margin: 0 auto;
+}
+.home-product__mask {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform .5s;
+    margin-top: -112px;
+}
+ .home-product__ico.product__ico01 {
+    background-image: url(https://www.xunlei.com/v2018/dist/spr_bannerTab.png?h=0472e8);
+    background-position: 0px -330px;
+    background-repeat: no-repeat;
+}
+ .xl-common__btn {
+    margin: 30px auto 0;
+    width: 196px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+.xl-common__btn {
+    position: relative;
+    display: block;
+    border: 1px solid #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: .25s;
+    color: #fff;
+    overflow: hidden;
+    background: transparent;
+}
+.page-go{
+    margin: 52px auto 0;
+    width: 194px;
+    height: 54px;
+    line-height: 54px;
+    border-radius: 28px;
+    font-size: 18px;
+}
+.home-wp + .home-box {
+    margin-top: 90px;
+}
+.home-tit {
+    font-size: 44px;
+    font-weight: lighter;
+}
+.home-info {
+    margin-top: 30px;
+    font-size: 22px;
+    letter-spacing: 0;
+    color: #fff;
+}
+.home-onething__mask {
+    position: relative;
+    height: 500px;
+    margin-top: 52px;
+    overflow: hidden;
+}
+.home-onething__mask > img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1920px;
+    height: 100%;
+    display: block;
+    margin-left: -960px;
+}
+.main {
+    position: relative;
+    max-width: 1200px;
+    min-width: 768px;
+    margin: 0 auto;
+}
+.home-onething__mask .main {
+    height: 100%;
+}
+.home-onething__list {
+    position: relative;
+    height: 100%;
+    font-size: 0;
+    text-align: left;
+}
+.home-onething__list > li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 32.6666%;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #2e38df;
+    background: rgba(46,56,223,.4);
+    transition: .5s ease;
+}
+.home-onething__list li:hover{
+    /* opacity:0; */
+    animation:appear linear 3s;
+    -webkit-animation: appear linear 3s;
+}
+@keyframes appear {
+    0% {opacity:0}
+    100% {opacity:1}
+}
+.home-onething__list > li:before {
+    display: block;
+    content: '';
+    padding-top: 102.0408%;
+}
+.home-onething__box {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fefefe;
+    cursor: pointer;
+}
